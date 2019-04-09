@@ -1,12 +1,13 @@
 # vue-cli-plugin-axios-module
 **:rocket: 基于Vue-cli 3.0的axios插件，帮助你快速搭建前后端交互模块**
 
-##Features
+## Features
 * 支持 单/多 系统交互
 * 环境变量配置
 * 业务模块划分
 * 请求拦截器集成
-##Usage
+
+## Usage
 terminal:
 ```javascript
 vue add axios-module
@@ -14,7 +15,7 @@ vue add axios-module
 图形化(vue ui):
 搜索 **vue-cli-plugin-axios-module** 即可
 
-##FAQ
+## FAQ
 **单/多 系统交互**
 API的地址在api/url.js中进行配置
 
