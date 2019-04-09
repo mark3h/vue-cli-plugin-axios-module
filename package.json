@@ -1,6 +1,6 @@
 {
-  "name": "vue-cli-plugin-axios-mark",
-  "version": "1.0.1",
+  "name": "vue-cli-plugin-axios-module",
+  "version": "0.0.1",
   "description": "vue-cli 3 plugin to axios",
   "main": "index.js",
   "repository": {
