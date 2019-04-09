@@ -1,0 +1,19 @@
+{
+  "name": "vue-cli-plugin-axios-mark",
+  "version": "1.0.1",
+  "description": "vue-cli 3 plugin to axios",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markh5/vue-cli-plugin-axios-module"
+  },
+  "keywords": [
+    "axios",
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
+  "author": "mark",
+  "license": "MIT"
+}
