@@ -36,26 +36,26 @@ API的地址在api/url.js中进行配置
 ```javascript
 // api/url.js
 const config = {
-	// sso端不同环境对应的地址
-	sso: {
-		development: 'www.ssodev.com',
-		qa: 'www.ssoqa.com',
-		prod: 'www.ssoprod.com'
-	},
-	// 业务端不同环境对应的地址
-	backend: {
-		development: 'www.bedev.com',
-		qa: 'www.beqa.com',
-		prod: 'www.beprod.com'
-	}
+  // sso端不同环境对应的地址
+  sso: {
+    development: 'www.ssodev.com',
+    qa: 'www.ssoqa.com',
+    prod: 'www.ssoprod.com'
+  },
+  // 业务端不同环境对应的地址
+  backend: {
+    development: 'www.bedev.com',
+    qa: 'www.beqa.com',
+    prod: 'www.beprod.com'
+  }
 }
 ```
 在此文件中，请填写你的各系统不同环境的地址，最终会根据你的NODE_ENV环境变量导出一个对象（默认NODE_ENV为development）
 ```javascript
 // 导出的url对象
 {
-	sso: 'www.ssodev.com',
-	backend: 'www.bedev.com'
+  sso: 'www.ssodev.com',
+  backend: 'www.bedev.com'
 }
 ```
 **业务模块划分**
