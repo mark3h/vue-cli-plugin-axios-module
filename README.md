@@ -13,10 +13,12 @@ terminal:
 vue add axios-module
 ```
 图形化(vue ui):
+
 搜索 **vue-cli-plugin-axios-module** 即可
 
 ## FAQ
 **单/多 系统交互**
+
 API的地址在api/url.js中进行配置
 
 如果只与单系统进行交互，只需配置系统名称与不同环境的地址即可
@@ -54,6 +56,7 @@ const config = {
 }
 ```
 **业务模块划分**
+
 modules文件下是各个业务模块的API模块，使用时在你的业务组件中调用即可
 ```javascript
 import http from '../http';
