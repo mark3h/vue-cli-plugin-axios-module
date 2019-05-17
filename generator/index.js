@@ -8,7 +8,7 @@ module.exports = (api, opts, rootOptions) => {
   api.render({
     './src/api/http.js': './templates/src/api/http.js',
     './src/api/module/backend.js': './templates/src/api/module/backend.js',
-    './src/api/url.js': './templates/src/api/http.js'
+    './src/api/url.js': './templates/src/api/url.js'
   })
 
   if (opts.multiple == 'muti') {
